@@ -4,8 +4,8 @@ const jwt = require('jsonwebtoken');
 
 exports.createAdmin = async (req, res) => {
     try {
-        const email = "ilhem.amiri22@gmail.com";
-        const motDePasse = "lahouma22";
+        const email = "ilhem.amiri2222@gmail.com";
+        const motDePasse = "lahouma2022*";
 
         // Vérifie si un compte administrateur existe déjà
         const existingAdmin = await Admin.findOne({ email: email });
